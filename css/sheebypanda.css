@@ -1,0 +1,67 @@
+body {
+    background-color: #282828;
+}
+h1 , h2 , h3, h4, h5 {
+    //font-family : 'Gloria Hallelujah', sans-serif;
+    font-family : 'Ubuntu', sans-serif;
+}
+
+h1 {
+    color : #92DC2C; //vert
+}
+
+h2 , a {
+    color : #54D3DC; //bleu
+}
+
+h3 , code , h5 {
+    color : #F9265D; //rose
+}
+
+h4 {
+    color : #92DC2C; //vert
+}
+
+p , li, a.navbar-brand {
+    font-family : 'Lato', sans-serif;
+    font-size : 1.2em;
+    color : #F8F8F2; //blanc
+}
+
+
+
+a:hover , h2:hover {
+    text-decoration:none;
+    color : #54D3DC;
+}
+
+ul.pager li.previous a , ul.pager li a , ul.pager li a:hover {
+    color : #F8F8F2;
+    background-color: #F9265D;
+    border:0;
+}
+
+ul.pager li.next a  {
+    color : #282828;
+    background-color: #92DC2C;
+    border:0;
+}
+p.progres {
+  margin-bottom: 20px;
+  height:20px;
+}
+.progress-bar-danger {
+  background-color: #F9265D; //rose
+}
+.progress-bar-info {
+  background-color: #54D3DC; //bleu
+}
+.progress-bar-success {
+  background-color: #92DC2C; //rose
+}
+.progress-bar-warning {
+  background-color: #FD971F; //orange
+}
+.progress-bar-primary {
+  background-color: #9E6FFE; //violet
+}

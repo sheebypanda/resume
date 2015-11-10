@@ -28,8 +28,6 @@ p , li, a.navbar-brand {
     color : #F8F8F2; //blanc
 }
 
-
-
 a:hover , h2:hover {
     text-decoration:none;
     color : #54D3DC;
@@ -64,4 +62,8 @@ p.progres {
 }
 .progress-bar-primary {
   background-color: #9E6FFE; //violet
+}
+.progress {
+  background-color: #212121;
+  border: 1px solid #3E3E3A;
 }

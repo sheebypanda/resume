@@ -1,17 +1,15 @@
 body {
-    background-color: #f9F9F9;
+    background-color: #fff;
 }
-h1 , h2 , h3, h4, h5 {
+ h3, h4, h5 {
     //font-family : 'Gloria Hallelujah', sans-serif;
-    font-family : 'Ubuntu Mono', sans-serif;
+    font-family : 'Ubuntu', sans-serif;
 }
 
-h1 {
+h1, h2 , a {
     color : #772953;
-}
-
-h2 , a {
-    color : #772953; //bleu
+    font-family : 'Ubuntu', sans-serif;
+    font-weight: 300;
 }
 
 h3 , code , h5 {
@@ -25,12 +23,7 @@ h4 {
 p , li, a.navbar-brand {
     font-family : 'Ubuntu', sans-serif;
     font-size : 1.1em;
-    color : #000;
-}
-
-a:hover , h2:hover {
-    text-decoration:none;
-    color : #54D3DC;
+    color : #333;
 }
 
 ul.pager li.previous a , ul.pager li a , ul.pager li a:hover {
@@ -45,8 +38,8 @@ ul.pager li.next a  {
     border:0;
 }
 p.progres {
-  margin-bottom: 20px;
-  height:20px;
+  margin-bottom: 15px;
+  height:15px;
 }
 .progress-bar-danger {
   background-color: #AD7E97; //rose
@@ -66,7 +59,21 @@ p.progres {
 .progress {
   background-color: #EEE;
   border: 1px solid #AEA79F;
+  height: 15px;
+  margin-bottom: 15px;
 }
 h1  small {
   color: #333333;
+}
+h3 small {
+  font-family: 'Ubuntu Mono';
+}
+.media:first-child {
+   margin-top: 15px;
+}
+.formation {
+  margin-bottom: 0;
+}
+.formation2 {
+  margin-top: 15px;
 }

@@ -1,60 +1,44 @@
 body {
     background-color: #fff;
-}
- h3, h4, h5 {
-    //font-family : 'Gloria Hallelujah', sans-serif;
+    color : #333;
     font-family : 'Ubuntu', sans-serif;
 }
 
-h1, h2 , a {
+h1, h2 {
     color : #772953;
-    font-family : 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 
-h3 , code , h5 {
-    color : #333; //rose
+h3 {
+  font-size:19px;
 }
 
-h4 {
-    color : #777; //vert
+h1  small, h4, h5 {
+  color: #777;
 }
 
-p , li, a.navbar-brand {
-    font-family : 'Ubuntu', sans-serif;
-    font-size : 1.1em;
-    color : #333;
+h5 {
+  font-family: 'Ubuntu Mono';
 }
 
-ul.pager li.previous a , ul.pager li a , ul.pager li a:hover {
-    color : #F8F8F2;
-    background-color: #F9265D;
-    border:0;
-}
-
-ul.pager li.next a  {
-    color : #282828;
-    background-color: #92DC2C;
-    border:0;
-}
 p.progres {
   margin-bottom: 15px;
   height:15px;
 }
 .progress-bar-danger {
-  background-color: #AD7E97; //rose
+  background-color: #AD7E97;
 }
 .progress-bar-info {
-  background-color: #843E64; //bleu
+  background-color: #843E64;
 }
 .progress-bar-success {
-  background-color: #772953; //rose
+  background-color: #772953;
 }
 .progress-bar-warning {
-  background-color: #9F6986; //orange
+  background-color: #9F6986;
 }
 .progress-bar-primary {
-  background-color: #925375; //violet
+  background-color: #925375;
 }
 .progress {
   background-color: #EEE;
@@ -62,12 +46,7 @@ p.progres {
   height: 15px;
   margin-bottom: 15px;
 }
-h1  small {
-  color: #333333;
-}
-h3 small {
-  font-family: 'Ubuntu Mono';
-}
+
 .media:first-child {
    margin-top: 15px;
 }

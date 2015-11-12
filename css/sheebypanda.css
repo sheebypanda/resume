@@ -1,0 +1,58 @@
+body {
+    background-color: #fff;
+    color : #333;
+    font-family : 'Ubuntu', sans-serif;
+}
+
+h1, h2 {
+    color : #772953;
+    font-weight: 300;
+}
+
+h3 {
+  font-size:19px;
+}
+
+h1  small, h4, h5 {
+  color: #777;
+}
+
+h5 {
+  font-family: 'Ubuntu Mono';
+}
+
+p.progres {
+  margin-bottom: 15px;
+  height:15px;
+}
+.progress-bar-danger {
+  background-color: #AD7E97;
+}
+.progress-bar-info {
+  background-color: #843E64;
+}
+.progress-bar-success {
+  background-color: #772953;
+}
+.progress-bar-warning {
+  background-color: #9F6986;
+}
+.progress-bar-primary {
+  background-color: #925375;
+}
+.progress {
+  background-color: #EEE;
+  border: 1px solid #AEA79F;
+  height: 15px;
+  margin-bottom: 15px;
+}
+
+.media:first-child {
+   margin-top: 15px;
+}
+.formation {
+  margin-bottom: 0;
+}
+.formation2 {
+  margin-top: 15px;
+}

@@ -2,11 +2,19 @@ body {
     background-color: #fff;
     color : #333;
     font-family : 'Ubuntu', sans-serif;
+<<<<<<< HEAD
+=======
+    font-weight: 300;
+>>>>>>> 7ff6754dd17d92a9e0e7e55e71001150de9319ee
 }
 
 h1, h2 {
     color : #772953;
+<<<<<<< HEAD
     font-weight: 300;
+=======
+    font-weight: 400;
+>>>>>>> 7ff6754dd17d92a9e0e7e55e71001150de9319ee
 }
 
 h3 {
